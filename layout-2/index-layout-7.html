@@ -23,19 +23,19 @@
 
 <body>
     <div class="global-wrapper clearfix" id="global-wrapper">
+        <!-- top bar -->
         <div class="navbar-before mobile-hidden">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p class="navbar-before-sign">Everything You Need is theBox</p>
+                        <!-- title top left -->
+                        <p class="navbar-before-sign">Your clothing destination</p>
                     </div>
                     <div class="col-md-6">
                         <ul class="nav navbar-nav navbar-right navbar-right-no-mar">
-                            <li><a href="#">About Us</a>
+                            <li><a href="about-us.html">About Us</a>
                             </li>
-                            <li><a href="#">Blog</a>
-                            </li>
-                            <li><a href="#">Contact Us</a>
+                            <li><a href="contact.html">Contact Us</a>
                             </li>
                             <li><a href="#">FAQ</a>
                             </li>
@@ -48,6 +48,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- login dialog -->
         <div class="mfp-with-anim mfp-hide mfp-dialog clearfix" id="nav-login-dialog">
             <h3 class="widget-title">Member Login</h3>
             <p>Welcome back, friend. Login to get started</p>
@@ -69,14 +71,14 @@
             </form>
             <div class="gap gap-small"></div>
             <ul class="list-inline">
-                <li><a href="#nav-account-dialog" class="popup-text">Not Member Yet</a>
+                <li><a href="#nav-account-dialog" class="popup-text">Not A Member Yet</a>
                 </li>
                 <li><a href="#nav-pwd-dialog" class="popup-text">Forgot Password?</a>
                 </li>
             </ul>
         </div>
         <div class="mfp-with-anim mfp-hide mfp-dialog clearfix" id="nav-account-dialog">
-            <h3 class="widget-title">Create TheBox Account</h3>
+            <h3 class="widget-title">Create Account</h3>
             <p>Ready to get best offers? Let's get started!</p>
             <hr />
             <form>
@@ -120,56 +122,30 @@
                 <input class="btn btn-primary" type="submit" value="Recover Password" />
             </form>
         </div>
+
+        <!-- menu bar -->
         <nav class="navbar navbar-inverse navbar-main navbar-pad">
             <div class="container">
                 <div class="navbar-header">
                     <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-nav-collapse" area_expanded="false"><span class="sr-only">Main Menu</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img src="img/logo-w.png" alt="Image Alternative text" title="Image Title" />
+                        <img src="../img/logo-w.png" alt="Image Alternative text" title="Image Title" />
                     </a>
                 </div>
                 <div class="rel">
                     <form class="navbar-form navbar-left navbar-main-search navbar-main-search-category" role="search">
                         <select class="navbar-main-search-category-select">
                             <option>All Departmens</option>
-                            <option>Appilances</option>
-                            <option>Apps & Games</option>
                             <option>Arts, Crafts & Sewing</option>
-                            <option>Automotive</option>
-                            <option>Baby</option>
-                            <option>Books</option>
-                            <option>CDs & Vinyl</option>
-                            <option>Cell Phones & Accessories</option>
                             <option>Clothing, Shoes & Jewelry</option>
                             <option>&nbsp;&nbsp;&nbsp;Woman</option>
                             <option>&nbsp;&nbsp;&nbsp;Men</option>
                             <option>&nbsp;&nbsp;&nbsp;Girls</option>
                             <option>&nbsp;&nbsp;&nbsp;Baby</option>
-                            <option>Collectibles & Fine Art</option>
-                            <option>Computers</option>
-                            <option>Credit and Payment Cards</option>
-                            <option>Digital Music</option>
-                            <option>Electronics</option>
                             <option>Gift Cards</option>
-                            <option>Grocery & Gourmet</option>
-                            <option>Health & Personal Care</option>
-                            <option>Home & Kitchen</option>
-                            <option>Industrial & Scientific</option>
                             <option>Luggage & Travel</option>
                             <option>Luxury Beauty</option>
-                            <option>Magazine Subscribtions</option>
-                            <option>Movies & TV</option>
-                            <option>Musical Instuments</option>
-                            <option>Office Products</option>
-                            <option>Patio, Lawn & Garden</option>
-                            <option>Pet Supplies</option>
-                            <option>Software</option>
-                            <option>Sports & Outdoors</option>
-                            <option>Tools & Home Improvement</option>
-                            <option>Toys & Games</option>
-                            <option>Video Games</option>
-                            <option>Wine</option>
                         </select>
                         <div class="form-group">
                             <input class="form-control" type="text" placeholder="Search the Entire Store..." />
@@ -177,7 +153,7 @@
                         <a class="fa fa-search navbar-main-search-submit" href="#"></a>
                     </form>
                     <a class="navbar-theme-img" href="#">
-                        <img src="img/373x92.png" alt="Image Alternative text" title="Image Title" />
+                        <img src="../img/373x92.png" alt="Image Alternative text" title="Image Title" />
                     </a>
                 </div>
             </div>
@@ -186,30 +162,18 @@
             <div class="container">
                 <div class="collapse navbar-collapse navbar-collapse-no-pad" id="main-nav-collapse">
                     <ul class="nav navbar-nav navbar-nav-lg">
-                        <li class="dropdown yamm-fw"><a href="#"><span >Explore</span>Pages<i class="drop-caret" data-toggle="dropdown"></i></a>
+                        <li class="dropdown yamm-fw"><a class="navbar-item-top" href="#">Pages<i class="drop-caret" data-toggle="dropdown"></i></a>
                             <ul class="dropdown-menu">
                                 <li class="yamm-content">
                                     <div class="row row-eq-height row-col-border">
                                         <div class="col-md-2">
                                             <h5>Homepages</h5>
                                             <ul class="dropdown-menu-items-list">
-                                                <li><a href="index.html">Layout 1</a>
-                                                    <p class="dropdown-menu-items-list-desc">Default Layout</p>
-                                                </li>
-                                                <li><a href="index-layout-2.html">Layout 2</a>
+                                                <li><a href="index.html">Layout 2</a>
                                                     <p class="dropdown-menu-items-list-desc">Banners Area + Product Carousel</p>
-                                                </li>
-                                                <li><a href="index-layout-3.html">Layout 3</a>
-                                                    <p class="dropdown-menu-items-list-desc">Aside Departmens</p>
                                                 </li>
                                                 <li><a href="index-layout-4.html">Layout 4</a>
                                                     <p class="dropdown-menu-items-list-desc">Sidebar Right</p>
-                                                </li>
-                                                <li><a href="index-layout-5.html">Layout 5</a>
-                                                    <p class="dropdown-menu-items-list-desc">Small Aside Departmens + Sidebar</p>
-                                                </li>
-                                                <li><a href="index-layout-6.html">Layout 6</a>
-                                                    <p class="dropdown-menu-items-list-desc">Full Banners + Product Tabs</p>
                                                 </li>
                                                 <li><a href="index-layout-7.html">Layout 7</a>
                                                     <p class="dropdown-menu-items-list-desc">Small Aside Departmens + Slider</p>
@@ -219,35 +183,8 @@
                                         <div class="col-md-2">
                                             <h5>Category Pages</h5>
                                             <ul class="dropdown-menu-items-list">
-                                                <li><a href="category.html">Layout 1</a>
-                                                    <p class="dropdown-menu-items-list-desc">Default Layout</p>
-                                                </li>
                                                 <li><a href="category-layout-2.html">Layout 2</a>
                                                     <p class="dropdown-menu-items-list-desc">Banner Title</p>
-                                                </li>
-                                                <li><a href="category-layout-3.html">Layout 3</a>
-                                                    <p class="dropdown-menu-items-list-desc">4 Columns Thumbs</p>
-                                                </li>
-                                                <li><a href="category-layout-4.html">Layout 4</a>
-                                                    <p class="dropdown-menu-items-list-desc">6 Columns Small Thumbs</p>
-                                                </li>
-                                                <li><a href="category-layout-5.html">Layout 5</a>
-                                                    <p class="dropdown-menu-items-list-desc">3 Columns Horizontal Thumbs</p>
-                                                </li>
-                                                <li><a href="category-layout-6.html">Layout 6</a>
-                                                    <p class="dropdown-menu-items-list-desc">4 Columns Horizontal Thumbs</p>
-                                                </li>
-                                                <li><a href="category-layout-7.html">Layout 7</a>
-                                                    <p class="dropdown-menu-items-list-desc">No Filters</p>
-                                                </li>
-                                                <li><a href="category-layout-8.html">Layout 8</a>
-                                                    <p class="dropdown-menu-items-list-desc">Sidebar Right</p>
-                                                </li>
-                                                <li><a href="category-layout-9.html">Layout 9</a>
-                                                    <p class="dropdown-menu-items-list-desc">Sidebar Inverse</p>
-                                                </li>
-                                                <li><a href="category-layout-10.html">Layout 10</a>
-                                                    <p class="dropdown-menu-items-list-desc">Sidebar Color</p>
                                                 </li>
                                                 <li><a href="category-layout-11.html">Layout 11</a>
                                                     <p class="dropdown-menu-items-list-desc">Horizontal Thumbs</p>
@@ -257,44 +194,14 @@
                                         <div class="col-md-2">
                                             <h5>Product Pages</h5>
                                             <ul class="dropdown-menu-items-list">
-                                                <li><a href="product-page.html">Layout 1</a>
-                                                    <p class="dropdown-menu-items-list-desc">Default Layout</p>
-                                                </li>
-                                                <li><a href="product-layout-2.html">Layout 2</a>
-                                                    <p class="dropdown-menu-items-list-desc">No Sidebar</p>
-                                                </li>
-                                                <li><a href="product-layout-3.html">Layout 3</a>
-                                                    <p class="dropdown-menu-items-list-desc">Full Area Layout + Banners</p>
-                                                </li>
-                                                <li><a href="product-layout-4.html">Layout 4</a>
-                                                    <p class="dropdown-menu-items-list-desc">Gallery Style</p>
-                                                </li>
                                                 <li><a href="product-layout-5.html">Layout 5</a>
                                                     <p class="dropdown-menu-items-list-desc">Sidebar Right</p>
-                                                </li>
-                                                <li><a href="product-layout-6.html">Layout 6</a>
-                                                    <p class="dropdown-menu-items-list-desc">Sidebar Left</p>
-                                                </li>
-                                                <li><a href="product-layout-7.html">Layout 7</a>
-                                                    <p class="dropdown-menu-items-list-desc">Product Gallery Left</p>
-                                                </li>
-                                                <li><a href="product-layout-8.html">Layout 8</a>
-                                                    <p class="dropdown-menu-items-list-desc">Product Gallery Right</p>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-md-2">
                                             <h5>Header Layouts</h5>
                                             <ul class="dropdown-menu-items-list">
-                                                <li><a href="index.html">Layout 1</a>
-                                                    <p class="dropdown-menu-items-list-desc">Default Layout</p>
-                                                </li>
-                                                <li><a href="index-nav-layout-2.html">Layout 2</a>
-                                                    <p class="dropdown-menu-items-list-desc">Center Logo + Category Nav</p>
-                                                </li>
-                                                <li><a href="index-nav-layout-3.html">Layout 3</a>
-                                                    <p class="dropdown-menu-items-list-desc">Special Area + Extended Search</p>
-                                                </li>
                                                 <li><a href="index-nav-layout-4.html">Layout 4</a>
                                                     <p class="dropdown-menu-items-list-desc">White Area + Extended Search</p>
                                                 </li>
@@ -302,10 +209,7 @@
                                             <hr />
                                             <h5>Footer Layouts</h5>
                                             <ul class="dropdown-menu-items-list">
-                                                <li><a href="index.html">Layout 1</a>
-                                                    <p class="dropdown-menu-items-list-desc">Default Layout</p>
-                                                </li>
-                                                <li><a href="index-footer-layout-2.html">Layout 2</a>
+                                                <li><a href="index-footer-layout-4.html">Layout 4</a>
                                                     <p class="dropdown-menu-items-list-desc">Minimal</p>
                                                 </li>
                                             </ul>
@@ -327,79 +231,11 @@
                                                 </li>
                                                 <li><a href="404.html">404</a>
                                                 </li>
-                                                <li><a href="blog.html">Blog</a>
-                                                </li>
-                                                <li><a href="blog-post.html">Blog Post</a>
-                                                </li>
                                                 <li><a href="login-register.html">Login/Register</a>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown yamm-fw"><a href="#"><span >Best of</span>Fashion<i class="drop-caret" data-toggle="dropdown"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="yamm-content">
-                                    <div class="row row-eq-height row-col-border">
-                                        <div class="col-md-2">
-                                            <h5>Top Categories</h5>
-                                            <ul class="dropdown-menu-items-list">
-                                                <li><a href="#">Mans</a>
-                                                    <p class="dropdown-menu-items-list-desc">Facilisi pulvinar vel</p>
-                                                </li>
-                                                <li><a href="#">Womans</a>
-                                                    <p class="dropdown-menu-items-list-desc">Gravida magna sapien</p>
-                                                </li>
-                                                <li><a href="#">Kids & Baby</a>
-                                                    <p class="dropdown-menu-items-list-desc">Sociosqu cum iaculis</p>
-                                                </li>
-                                                <li><a href="#">Shoes</a>
-                                                    <p class="dropdown-menu-items-list-desc">Nascetur posuere aliquet</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <h5>Shop For</h5>
-                                            <ul class="dropdown-menu-items-list">
-                                                <li><a href="#">Designer Collective</a>
-                                                    <p class="dropdown-menu-items-list-desc">Interdum cursus risus</p>
-                                                </li>
-                                                <li><a href="#">Jewelry & Watches</a>
-                                                    <p class="dropdown-menu-items-list-desc">Suspendisse natoque dapibus</p>
-                                                </li>
-                                                <li><a href="#">Handbags & Accessories</a>
-                                                    <p class="dropdown-menu-items-list-desc">Rhoncus vel fermentum</p>
-                                                </li>
-                                                <li><a href="#">Health & Beauty</a>
-                                                    <p class="dropdown-menu-items-list-desc">Phasellus tortor curae</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <h5>Top Brands</h5>
-                                            <ul class="dropdown-menu-items-list">
-                                                <li><a href="#">Vera Bradley</a>
-                                                </li>
-                                                <li><a href="#">Rolex</a>
-                                                </li>
-                                                <li><a href="#">Nike</a>
-                                                </li>
-                                                <li><a href="#">Michael Kors</a>
-                                                </li>
-                                                <li><a href="#">Coach</a>
-                                                </li>
-                                                <li><a href="#">Adidas</a>
-                                                </li>
-                                                <li><a href="#">Zara</a>
-                                                </li>
-                                                <li><a href="#">Fossil</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <img class="dropdown-menu-theme-image" src="img/600x317.png" alt="Image Alternative text" title="Image Title" />
                                 </li>
                             </ul>
                         </li>
@@ -2506,7 +2342,7 @@
                 <div class="row row-col-gap" data-gutter="60">
                     <div class="col-md-3">
                         <h4 class="widget-title-sm">TheBox Shop</h4>
-                        <p>Nullam magnis magnis maecenas neque ut purus condimentum semper senectus feugiat et</p>
+                        <p>Justo viverra tincidunt pulvinar sociis maecenas gravida felis dolor penatibus pharetra aptent</p>
                         <ul class="main-footer-social-list">
                             <li>
                                 <a class="fa fa-facebook" href="#"></a>
@@ -2585,7 +2421,7 @@
                     <li><a href="#">Payments & Refunds</a>
                     </li>
                 </ul>
-                <img class="main-footer-img" src="img/test_footer2-i.png" alt="Image Alternative text" title="Image Title" />
+                <img class="main-footer-img" src="../img/test_footer2-i.png" alt="Image Alternative text" title="Image Title" />
             </div>
         </footer>
         <div class="copyright-area">
@@ -2597,22 +2433,22 @@
                     <div class="col-md-6">
                         <ul class="payment-icons-list">
                             <li>
-                                <img src="img/payment/visa-straight-32px.png" alt="Image Alternative text" title="Pay with Visa" />
+                                <img src="../img/payment/visa-straight-32px.png" alt="Image Alternative text" title="Pay with Visa" />
                             </li>
                             <li>
-                                <img src="img/payment/mastercard-straight-32px.png" alt="Image Alternative text" title="Pay with Mastercard" />
+                                <img src="../img/payment/mastercard-straight-32px.png" alt="Image Alternative text" title="Pay with Mastercard" />
                             </li>
                             <li>
-                                <img src="img/payment/paypal-straight-32px.png" alt="Image Alternative text" title="Pay with Paypal" />
+                                <img src="../img/payment/paypal-straight-32px.png" alt="Image Alternative text" title="Pay with Paypal" />
                             </li>
                             <li>
-                                <img src="img/payment/visa-electron-straight-32px.png" alt="Image Alternative text" title="Pay with Visa-electron" />
+                                <img src="../img/payment/visa-electron-straight-32px.png" alt="Image Alternative text" title="Pay with Visa-electron" />
                             </li>
                             <li>
-                                <img src="img/payment/maestro-straight-32px.png" alt="Image Alternative text" title="Pay with Maestro" />
+                                <img src="../img/payment/maestro-straight-32px.png" alt="Image Alternative text" title="Pay with Maestro" />
                             </li>
                             <li>
-                                <img src="img/payment/discover-straight-32px.png" alt="Image Alternative text" title="Pay with Discover" />
+                                <img src="../img/payment/discover-straight-32px.png" alt="Image Alternative text" title="Pay with Discover" />
                             </li>
                         </ul>
                     </div>
